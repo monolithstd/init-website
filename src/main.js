@@ -1,32 +1,15 @@
 import $ from 'jquery'
-$(document).ready(function () {
+import './features/pageProg.js'
+import './features/pageHome.js'
+
+$(function () {
   // GLOBAL | Calcul des hauteurs d'écrans
   const TwoWindows = window.innerHeight * 2
   const ThreeWindows = window.innerHeight * 3
   const FourWindows = window.innerHeight * 4
   const FiveWindows = window.innerHeight * 5
   const SixWindows = window.innerHeight * 6
-  /** 
-  // SPLIDE | Slider Avis
-  const SplideAvis = new Splide('.splide-avis', {
-    type: 'loop',
-    perPage: 4,
-    perMove: 1,
-    focus: 1,
-    autoplay: true,
-  })
-  splide.mount()
 
-  // SPLIDE | Slider Finalite
-  const SplideFinalite = new Splide('.splide-finalite', {
-    type: 'loop',
-    perPage: 5,
-    perMove: 1,
-    focus: 1,
-    autoplay: true,
-  })
-  splide.mount()
-  **/
   // PROGMARKET | Initial State de la section ProgMarket
   $('.layout--header-large.mb-48.chap-2').removeClass('show')
   $('.chap-obj__infos.chap-2').removeClass('show')

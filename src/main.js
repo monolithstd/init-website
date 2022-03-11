@@ -47,7 +47,7 @@ $(function () {
     )
     // PROGMARKET | Affichage conditionnel selon la distance de scroll à l'instant T
     if (scrollFromTopProgMarket < TwoWindows) {
-      console.log('Introduction')
+      console.log('Introduction v2')
       $('.layout--header-large.mb-48.chap-2').removeClass('show')
       $('.chap-obj__infos.chap-2').removeClass('show')
       $('.chap-obj__card.chap-2').removeClass('show')
